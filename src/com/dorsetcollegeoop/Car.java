@@ -5,6 +5,11 @@ public class Car extends Vehicle {
     public Car() {
 
         MessageCentre.DebugMessage("Creating a Car");
+
+        setManufacturer("Uknown m/f");
+        setModelName("Uknown model");
+
+
     }
 
     public Car(String manufacturer, String modelName) {

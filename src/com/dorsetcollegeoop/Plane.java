@@ -6,4 +6,11 @@ public class Plane extends Vehicle {
 
         MessageCentre.DebugMessage("Creating a plane");
     }
+
+    @Override
+    public String toString() {
+
+        return String.format("plane");
+    }
+
 }
