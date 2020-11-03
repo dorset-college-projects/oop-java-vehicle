@@ -12,4 +12,8 @@ public class MotorCycle extends Cycle {
         return String.format("motorcycle");
     }
 
+    @Override
+    public void Move(int speed, String direction) {
+
+    }
 }

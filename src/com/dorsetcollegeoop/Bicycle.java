@@ -4,6 +4,9 @@ public class Bicycle extends Cycle {
 
     public Bicycle() {
         MessageCentre.DebugMessage("Creating a Bicycle");
+
+        setManufacturer("");
+        setModelName("");
     }
 
     @Override
@@ -12,4 +15,8 @@ public class Bicycle extends Cycle {
         return "I am a bicycle";
     }
 
+    @Override
+    public void Move(int speed, String direction) {
+
+    }
 }

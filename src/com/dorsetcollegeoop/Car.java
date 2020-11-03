@@ -27,4 +27,8 @@ public class Car extends Vehicle {
     }
 
 
+    @Override
+    public void Move(int speed, String direction) {
+
+    }
 }

@@ -13,4 +13,10 @@ public class RowingBoat extends Boat {
 
         return String.format("rowing boat");
     }
+
+    @Override
+    public void Move(int speed, String direction) {
+
+        MessageCentre.DebugMessage(String.format("I am rowing %s at %d metres per hour", direction, speed));
+    }
 }

@@ -15,9 +15,12 @@ public class TestRunner {
         Car c2 = new Car("Nissan","Navara");
         Car c3 = new Car("Ford", "Escort");
 
-        carpark.ParkCar(c1);
-        carpark.ParkCar(c2);
-        carpark.ParkCar(c3);
+        carpark.ParkVehicle(c1);
+        carpark.ParkVehicle(c2);
+        carpark.ParkVehicle(c3);
+
+        Bicycle b1 = new Bicycle();
+        carpark.ParkVehicle(b1);
 
         MessageCentre.DebugMessage(carpark.toString());
 
@@ -43,8 +46,11 @@ public class TestRunner {
         MotorCycle m1 = new MotorCycle();
 
         RowingBoat rb1 = new RowingBoat();
+        rb1.Move(5,"South");
 
         Plane plane1 = new Plane();
+
+        plane1.Move(240, "North");
 
 
     }
